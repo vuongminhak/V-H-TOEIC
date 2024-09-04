@@ -1,0 +1,116 @@
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+
+.toeic-class {
+    margin-bottom: 20px;
+}
+
+
+.register-btn {
+    background-color:red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.schedule, .other-offers {
+    margin-bottom: 20px;
+}
+
+.schedule h3, .other-offers h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.accordion-content {
+    display: none; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.accordion-content .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+
+.accordion-content h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+.accordion-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.accordion-content ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.accordion-header {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.accordion-header.active {
+    background-color: #0056b3;
+}

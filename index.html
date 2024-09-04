@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web luyện thi Toeic</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="flex">
+        <div class="logoContainer flex" id="logoContainer">
+            <a href="index.html" class="LG">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <div>V&H TOEIC</div>
+        </div>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav id="navMenu">
+            <ul class="flex">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="dropdown">
+                    <a href="#">Về chúng tôi <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdownMenu">
+                        <a href="lotrinh.html">Lộ trình TOEIC 4 kỹ năng</a>
+                        <a href="hotrothi.html">Hỗ trợ thi</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Khóa học <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdownMenu">
+                        <a href="toeic2skill.html">TOEIC 2 kỹ năng</a>
+                        <a href="toeic4skill.html">TOEIC 4 kỹ năng</a>
+                    </div>
+                </li>
+                <li><a href="testdauvao.html">Kiểm tra đầu vào</a></li>
+                <li class="dropdown">
+                    <a href="#">Góc học tập <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdownMenu">
+                        <a href="L&R.html">Luyện tập Reading&Listening</a>
+                        <a href="W&S.html">Luyện tập Writing&Speaking</a>
+                        <a href="tuvung.html">Ôn tập từ vựng</a>
+                        <a href="nguphap.html">Ôn tập ngữ pháp</a>
+                    </div>
+                </li>
+                <li><a href="dethionline.html">Đề thi online</a></li>
+                <li class="dropdown">
+                    <a href="#">Liên hệ <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdownMenu">
+                        <a href="tuyendung.html">Tuyển dụng</a>
+                    </div>
+                </li>
+                <li><a href="login.html" class="login log btn" id="log">Đăng nhập</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="content flex">
+            <div class="textContainer">
+                <h1>Luyện thi
+                    <strong class="highlight">TOEIC</strong> online 2024</h1>
+                <p>Chào mừng bạn đến với V&H TOEIC! Chúng tôi tự hào là điểm đến lý tưởng để bạn chinh phục chứng chỉ TOEIC. Tại đây, bạn sẽ tìm thấy các bài luyện tập chi tiết cho từng phần của kỳ thi, đề thi thử thực tế, và những bài tập từ vựng cũng như ngữ pháp được thiết kế để nâng cao kỹ năng của bạn. Hãy bắt đầu hành trình luyện thi ngay hôm nay và đạt được kết quả xuất sắc với các công cụ học tập chất lượng cao của chúng tôi!</p>
+                <a href="#" class="actionButton">Học ngay</a>
+                <a href="premium.html" class="premiumButton">Đăng ký khóa học Premium</a>
+            </div>
+            <div class="imageGrid flex">
+                <img src="images/sample1.jpg" alt="Sample Image 1">
+                <img src="images/sample2.jpg" alt="Sample Image 2">
+                <img src="images/sample3.jpg" alt="Sample Image 3">
+                <img src="images/sample4.jpg" alt="Sample Image 4">
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Các tính năng nổi bật</h2>
+            <div class="feature">
+                <img src="images/feature1.jpg" alt="Feature 1">
+                <div class="featureText">
+                    <h3>Tài liệu học tập</h3>
+                    <p>Chúng tôi cung cấp tài liệu học tập đa dạng và phong phú cho từng phần của kỳ thi TOEIC.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/feature2.jpg" alt="Feature 2">
+                <div class="featureText">
+                    <h3>Đề thi thử</h3>
+                    <p>Thực hành với các đề thi thử để làm quen với cấu trúc và mức độ khó của kỳ thi TOEIC.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="images/feature3.jpg" alt="Feature 3">
+                <div class="featureText">
+                    <h3>Khóa học trực tuyến</h3>
+                    <p>Tham gia các khóa học trực tuyến với hướng dẫn chi tiết từ các chuyên gia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Test TOEIC -->
+        <div class="test">
+            <div class="content">
+                <h2 class="title">Hình thức bài thi TOEIC</h2>
+                <div class="test-item">
+                    <div class="img">
+                        <img
+                            src="images/pc_test.webp"
+                            alt=""
+                            class="img-test"
+                        />
+                    </div>
+
+                    <div class="info">
+                        <h2 class="title-item">Thi&nbsp;Mô&nbsp;Phỏng</h2>
+                        <p class="desc">
+                            Luyện thi mô phỏng trên máy tính như thi thật
+                            giúp bạn làm quen khi bước vào kì thi chính thức
+                        </p>
+                    </div>
+
+                    <div class="to-test-btn">
+                        <a href="" class="btn log">
+                            <p class="text">Luyện tập</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <div class="img">
+                        <img
+                            src="images/mini-test.webp"
+                            alt=""
+                            class="img-test"
+                        />
+                    </div>
+
+                    <div class="info">
+                        <h2 class="title-item">MINI TEST</h2>
+                        <p class="desc">
+                            Làm bài mini test với số lượng câu hỏi và thời
+                            gian giảm một nửa so với bài thi thật.
+                        </p>
+                    </div>
+
+                    <div class="to-test-btn">
+                        <a href="" class="btn log">
+                            <p class="text">Luyện tập</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <div class="img">
+                        <img
+                            src="images/full-test.webp"
+                            alt=""
+                            class="img-test"
+                        />
+                    </div>
+
+                    <div class="info">
+                        <h2 class="title-item">FULL TEST</h2>
+                        <p class="desc">
+                            Làm bài full test với số lượng câu hỏi và thời
+                            gian giống như bài thi thật
+                        </p>
+                    </div>
+
+                    <div class="to-test-btn">
+                        <a href="" class="btn log">
+                            <p class="text">Luyện tập</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Function  -->
+        <div class="function_web">
+            <div class="content">
+                <h1 class="heading">Chức năng</h1>
+
+                <div class="group-info flex">
+                    <div class="photo-left">
+                        <img
+                            src="images/banner_chinh_web.png"
+                            alt="web"
+                            class="web"
+                        />
+                    </div>
+                    <div class="parent-info flex">
+                        <div class="info">
+                            <div class="icon">
+                                <img
+                                    src="images/func_web-1.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                            <h2 class="title">Ngân hàng đề thi</h2>
+                            <p class="desc">
+                                Ngân hàng đề thi đa dạng với nhiều chủ đề
+                                khác nhau sẽ giúp bạn chuẩn bị tốt nhất cho
+                                kỳ thi của mình
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="icon">
+                                <img
+                                    src="images/func_web-2.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                            <h2 class="title">Mô phỏng bài thi thật</h2>
+                            <p class="desc">
+                                Các bài thi thử có cấu trúc giống như bài
+                                thi thật sẽ giúp bạn vượt qua kỳ thi một
+                                cách thành công
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="icon">
+                                <img
+                                    src="images/func_web-3.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <h2 class="title">
+                                Không cần đăng nhập hoặc đăng ký
+                            </h2>
+                            <p class="desc">
+                                Không cần đăng nhập hoặc đăng ký, tiến trình
+                                học tập của bạn vẫn sẽ được lưu lại.
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="icon">
+                                <img
+                                    src="images/func_web-4.svg"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                            <h2 class="title">Thống kê kết quả chi tiết</h2>
+                            <p class="desc">
+                                Sau khi hoàn thành mỗi bài luyện tập, bạn có
+                                thể xem thống kê chi tiết kết quả bài làm
+                                của mình
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <button class="func-btn">
+                <a href="#" >
+                    Làm bài thi thử ngay
+                </a>
+            </button>
+        </div>
+
+         <!-- Comments -->
+         <div class="comments">
+            <div class="content">
+                <div class="comments_title">
+                    <h2 class="title">Mọi người nghĩ gì về chúng tôi</h2>
+                    <p class="des">
+                        Cảm ơn những lời nhận xét của mọi người
+                    </p>
+                </div>
+                <div class="comments_list">
+                    <div class="comment flex">
+                        <div class="avatar">
+                                <img src="images/Photo1.jpg" alt="avatar" />
+                        </div>
+                        <div class="info">
+                            <div class="name">Mr. John Doe</div>
+                            <div class="time">10:30 AM</div>
+                            <div class="content">
+                                Khóa học được dẫn dắt bởi những giáo viên có kinh nghiệm và chuyên môn trong lĩnh vực luyện thi TOEIC, giúp học viên hiểu rõ yêu cầu và phong cách kiểm tra của bài thi, từ đó tăng cơ hội thành công trong kỳ thi thực tế.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment flex">
+                        <div class="avatar">
+                            <img src="images/Photo2.jpg" alt="avatar" />
+                        </div>
+                        <div class="info">
+                            <div class="name">Ms. Smith</div>
+                            <div class="time">10:35 AM</div>
+                            <div class="content">
+                                Khóa học luyện thi TOEIC cung cấp một loạt các bài học và tài liệu hữu ích, từ ngữ pháp, từ vựng, đọc hiểu đến luyện nghe, giúp học viên đạt được sự đa dạng và phong phú trong việc nâng cao kỹ năng tiếng Anh.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment flex">
+                        <div class="avatar">
+                            <img src="images/Photo3.jpg" alt="avatar" />
+                        </div>
+                        <div class="info">
+                            <div class="name">Mr. Johnson</div>
+                            <div class="time">10:40 AM</div>
+                            <div class="content">
+                                Khóa học luyện thi TOEIC cung cấp cho học viên một cơ hội tự học và phát triển kỹ năng tiếng Anh, cũng như sự đa dạng và phong phú trong việc học và làm bài thi. Khóa học này giúp học viên đạt được kết quả đầu tay và thành công trong kỳ thi thực tế.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Tổng quan về Toeic -->
+<div class="more-inf">
+    <div class="content" id="inf">
+        <h2 class="title">Tổng quan về bài thi TOEIC</h2>
+        <div class="first">
+            <h3 class="mini-title">1. TOEIC là gì?</h3>
+            <p class="describe">
+                TOEIC (the Test of English for International
+                Communication) là bài kiểm tra đánh giá khả năng sử
+                dụng tiếng Anh trong môi trường giao tiếp quốc tế.
+                Kỳ thi thuộc bản quyền của Viện Khảo thí giáo dục
+                Hoa Kỳ.
+            </p>
+            <p class="describe">
+                Các câu hỏi trong đề thi TOEIC® liên quan đến các
+                chủ đề như hội họp, du lịch, thông báo, email.
+            </p>
+        </div>
+        <div class="not-first none">
+            <h3 class="mini-title">2. Cấu trúc bài thi TOEIC</h3>
+            <p class="describe">
+                Bài thi TOEIC bao gồm hai phần: Đọc và Nghe. Các thí
+                sinh sẽ thi phần Đọc hiểu trong thời gian 75 phút và
+                phần nghe trong thời gian 45 phút. Tổng thời gian
+                cho một bài thi TOEIC là 120 phút.
+            </p>
+            <p class="describe">
+                Mỗi phần gồm 100 câu hỏi trắc nghiệm.
+            </p>
+            <p class="describe">
+                Đây là định dạng mới của kỳ thi. Giống như định dạng
+                trước, định dạng mới bao gồm 7 phần; tuy nhiên, số
+                lượng câu hỏi trong một số phần đã được thay đổi.
+            </p>
+            <table class="describe table">
+                <thead class="title-tb">
+                    <tr>
+                        <th>Kỹ năng</th>
+                        <th>Phần</th>
+                        <th>Số lượng câu hỏi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4" class="merge">Nghe</td>
+                        <td>Phần 1: Mô tả tranh</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Phần 2: Hỏi – Đáp</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Phần 3: Đoạn hội thoại</td>
+                        <td>
+                            39 (13 đoạn hội thoại, 3 câu hỏi mỗi
+                            đoạn)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phần 4: Bài nói ngắn</td>
+                        <td>
+                            30 (10 bài nói, 3 câu hỏi mỗi bài nói)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" class="merge">Đọc</td>
+                        <td>Phần 5: Hoàn thành câu</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Phần 6: Hoàn thành đoạn văn</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td
+                            rowspan="2"
+                            style="vertical-align: middle"
+                        >
+                            Phần 7: Đọc hiểu
+                        </td>
+                        <td>
+                            Đoạn đơn : 29 ( 10 đoạn đơn, 2-4 câu hỏi
+                            mỗi đoạn đơn)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Đoạn đa: 25 (2 đoạn kép + 3 đoạn ba , 5
+                            câu hỏi mỗi đoạn kép và mỗi đoạn ba)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="not-first none">
+            <h3 class="mini-title">
+                3. Cách tính điểm bài thi TOEIC
+            </h3>
+            <p class="describe">
+                TOEIC không phải là một kỳ thi đạt hoặc không đạt.
+                TOEIC đánh giá năng lực tiếng Anh của bạn trong các
+                kỹ năng Đọc và Nghe.
+            </p>
+            <p class="describe">
+                Trong bài thi TOEIC Reading và Listening, điểm số
+                của thí sinh được xác định dựa trên số câu hỏi mà họ
+                trả lời đúng, sau đó được chuyển thành thang điểm.
+                Bạn sẽ nhìn thấy điểm từng phần đọc, phần nghe đã
+                được quy đổi cũng như điểm tổng của 2 kỹ năng này
+                trên chứng chỉ TOEIC của bạn.
+            </p>
+            <p class="describe">
+                Bài thi TOEIC Nghe và Đọc có thang điểm từ 10 đến
+                990. Vì vậy, điểm tối đa cho mỗi kỹ năng là 495.
+            </p>
+            <table class="describe table">
+                <tbody>
+                    <tr>
+                        <td class="text-center">10 - 250</td>
+                        <td>Mức độ cơ bản</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">255 - 400</td>
+                        <td>Mức độ sơ cấp</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">405 - 600</td>
+                        <td>Mức độ trên sơ cấp</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">605 - 780</td>
+                        <td>
+                            Khả năng sử dụng tiếng Anh trong công
+                            việc còn hạn chế
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">785 - 900</td>
+                        <td>
+                            Đủ năng lực dùng trong môi trường làm
+                            việc
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">905 - 990</td>
+                        <td>Năng lực giao tiếp quốc tế</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button type="button" class="continute">Xem thêm</button>
+    </div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="content">
+            <div class="row row-top">
+                <div class="column-1">
+                    <h2 class="heading">Luyện&nbsp;thi</h2>
+                    <ul class="list">
+                        <li class="item"><a href="#">Trang&nbsp;chủ</a></li>
+                        <li class="item"><a href="#">Về&nbsp;chúng&nbsp;tôi</a></li>
+                        <li class="item"><a href="#">Khóa&nbsp;học</a></li>
+                        <li class="item"><a href="#">Lịch&nbsp;khai&nbsp;giảng</a></li>
+                        <li class="item"><a href="#">Góc&nbsp;học&nbsp;tập</a></li>
+                    </ul>
+                </div>
+                <div class="column-2">
+                    <h2 class="heading">Hỗ&nbsp;trợ</h2>
+                    <ul class="list">
+                        <li class="item"><a href="./aboutus.html">Giới&nbsp;thiệu</a></li>
+                        <li class="item"><a href="./contact.html">Liên&nbsp;hệ</a></li>
+                        <li class="item"><a href="./term.html">Điều&nbsp;khoản</a></li>
+                    </ul>
+                </div>
+                <div class="column-3">
+                    <div class="email-call mail">
+                        <p class="desc-email-call">Email us</p>
+                        <a href="mailto:vhtoeic@gmail.com" class="mail-call">vhtoeic@gmail.com</a>
+                        <div class="social-media">
+                            <div class="card">
+                                <a href="#" class="socialContainer containerOne">
+                                    <svg class="socialSvg instagramSvg" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=61556460630358&locale=vi_VN" class="socialContainer containerTwo">
+                                    <svg class="fb socialSvg icon flat-color" fill="#000000" width="800px" height="800px" viewBox="0 0 24 24" id="facebook" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg">
+                                        <path id="primary" d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z" style="fill: rgb(0, 0, 0)"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="socialContainer containerThree">
+                                    <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512">
+                                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                                    </svg>
+                                    <a href="#!" class="socialContainer containerFour" >
+                                    <svg
+                                        class="socialSvg whatsappSvg"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                                    </svg>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column-4">
+                        <div class="email-call call">
+                            <p class="desc-email-call">Call&nbsp;us</p>
+                            <a href="tel:0123456789" class="mail-call"
+                                >012&nbsp;3456&nbsp;789</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-bottom">
+                    <!-- Logo -->
+                    <div class="footer-Logo">
+                        <a href="index.html" class="Logo flex">
+                            <img
+                                src="images/logo.png"
+                                alt="Logo"
+                                class="lg"
+                            />
+                            <p class="desc-Logo">V&H TOEIC</p>
+                        </a>
+                    </div>
+
+                    <!-- Bank -->
+                    <div class="footer-bank">
+                        <img
+                            src="images/Bank.svg"
+                            alt="Bank"
+                            class="bank"
+                        />
+                    </div>
+
+                    <div class="footer-copyright">
+                        <p class="copy-right">
+                            Copyright&nbsp;©&nbsp;2024&nbsp;BY&nbsp;V&H&nbsp;TOEIC.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn-to-top">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            </a>
+        </footer>
+
+    <script src="javascript.js/go-top.js"></script>
+    <script src="javascript.js/them_text.js"></script>
+    <script src="javascript.js/responsive.js"></script>
+   
+</body>
+</html>

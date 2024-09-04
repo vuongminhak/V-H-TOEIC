@@ -1,0 +1,172 @@
+.flex{
+    display: flex;
+}
+
+.mucluc {
+margin: 20px 0;
+border: 1px solid #ddd;
+padding: 15px;
+background-color: #f9f9f9;
+}
+
+.ml-header {
+justify-content: space-between;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.ml-body ul {
+list-style: none;
+}
+
+.ml-body ul li {
+margin-bottom: 5px;
+}
+
+.ml-body ul li a {
+text-decoration: none;
+color: #007bff;
+}
+
+.ml-body ul li a:hover {
+text-decoration: underline;
+}
+
+.noidungpage {
+    margin: 10rem auto;
+    width: 70%;
+}
+
+.noidungpage .content {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px gray;
+}
+
+.ads {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px gray;
+
+}
+
+.ads h2{
+    font-size: 1.5rem;
+    
+}
+
+p {
+    color: #666;
+    margin: 20px 20px;
+    line-height: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 20px;
+    
+}
+
+h2, h3, h4 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.list ul {
+    list-style: disc inside;
+    margin: 10px 0 10px 20px;
+}
+
+.list ul li {
+    margin-bottom: 8px;
+}
+
+.mucluc .left{
+    margin-left: auto;
+}
+
+.mucluc .ml-body, .list{
+    margin-left: 50px;
+}
+
+table ul{
+    list-style-type: none;
+}
+
+table {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ads .ads-head{
+    background-color: #C8202E;
+    border-radius: 6px;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: -20px;
+    box-shadow: 5px 5px 4px rgba(142, 0, 0, 0.3);
+}
+
+.course img{
+    flex: 1;
+    width: 40%;
+    border-radius: 20%;
+    border: 1px solid #ddd;
+}
+
+.course {
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.course p{
+    flex: 2;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(220, 5, 5);
+}
+
+.dangky p{
+    line-height: 0;
+    margin-left: 20px;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content .imgtext{
+   text-align: center;
+}
+

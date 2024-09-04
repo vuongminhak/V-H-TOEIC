@@ -1,0 +1,161 @@
+body .main .bodymenu {
+    margin: 2rem auto;
+    width: 80%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #222;
+}
+
+/* Nav List */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.nav-item {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #e0e0e0;
+}
+
+.container{
+    width: 80%;
+}
+
+.container .tab-content{
+    gap: 10rem;
+}
+
+.container .tab-content .item {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.65rem;
+    background-color: rgb(209, 209, 209);
+    max-width: 250px ;
+    transition: box-shadow 0.3s ease;
+}
+
+.text-dark .detail{
+    margin: 20px 0;
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.item h2,span{
+    line-height: 30px;
+}
+
+.item .text-dark{
+    color: black;
+    text-decoration: none;
+}
+
+.item .tag{
+    padding: 3px 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    text-align: left;
+    background-color: #f0f8ff;
+    color: #35509a;
+}
+
+.button {
+    background-color: rgb(209, 209, 209); 
+    color: #3f51b5;
+    border: 1px solid #3f51b5; 
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.search-bar button {
+    background-color: #3f51b5;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar button span{
+    align-items: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar button:hover{
+    background-color: red;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+.tab {
+    list-style-type: none; 
+}
+
+.active {
+    font-weight: bold;
+}
+
+.tab a {
+    text-decoration: none;
+    color: #333;
+}
+
+
